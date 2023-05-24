@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+<isinclude template="/components/modules" />
+<iscontentasset aid="feedback-banner" />
+  <h1><b>Feedback Form</b></h1> <br>
+    <form action="${pdict.actionUrl}"  method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value=""><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback"> </textarea><br><br>
+        <input type="submit" value="Submit" class ="btn-primary" >
+    </form> 
+</isdecorate>

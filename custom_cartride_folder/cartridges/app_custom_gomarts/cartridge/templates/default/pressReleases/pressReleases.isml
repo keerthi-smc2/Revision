@@ -1,0 +1,6 @@
+<isdecorate template="common/layout/page">
+<isinclude template="/components/modules" />
+<isinclude template="components/breadcrumbs/pageBreadcrumbs"/>
+
+<iscontentasset aid="press-release-banner2" />
+</isdecorate>

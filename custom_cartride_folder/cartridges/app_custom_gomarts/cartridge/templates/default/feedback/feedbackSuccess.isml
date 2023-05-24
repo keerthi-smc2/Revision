@@ -1,0 +1,7 @@
+<isdecorate template="common/layout/page">
+<isinclude template="/components/modules" />
+<iscontentasset aid="thankyou-banner" />
+     Thank you <b>${pdict.name}</b> for your valuable feedback.<br> 
+     Your Email:<b>${pdict.email} </b><br>
+     your Feedback: <b>${pdict.feedback}</b>.
+</isdecorate>    
